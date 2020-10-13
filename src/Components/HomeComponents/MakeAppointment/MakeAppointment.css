@@ -1,0 +1,17 @@
+#appointment {
+    margin-top:400px;
+    background-image: url('../../../images/bg-chair.png');
+    background-size: cover;
+    height: 350px;
+}
+#appointment::after{
+    height:400px;
+    content:' ';
+    position: absolute;
+    top: 0;
+    width: 30%;
+    right: 0;
+    background-color: #3a4256ea;
+    z-index: -50;
+    
+}
